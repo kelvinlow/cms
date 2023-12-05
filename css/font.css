@@ -1,0 +1,154 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: auto;
+	color:#434343;
+}
+.fa{
+	display:inline-block;
+	margin-right:3px;
+	}
+ 
+hr{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	border-top-style: none;
+	border-right-style: none; 
+	border-left-style: none;
+	clear: both;
+	margin:40px 0px;
+}
+@media only screen and (max-width: 520px) {
+
+hr{
+	margin:20px 0px 40px 0px;
+}
+}
+
+body, p, a, ul, ol{
+	font-size: 17px;
+	line-height:1.5em;
+	}
+.white{
+	color:#fff;
+	}
+.navy{
+	color:#5d3c95;
+}
+.brown{
+	color:#6a3a30;
+}
+.red{ 
+	color:#ed1c24;
+	text-shadow: 0px 3px 5px #000;
+}
+
+.yellow{
+	color:#ffcf00;
+}
+.listing a{
+	color:#434343;
+}
+.oren{
+	color:#fe9923;
+}
+.black{color:#231f20;}
+/*************** ALL LINKS SAME STYLE LAAAAA **************************************/
+a, a img{
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+ul{
+	}
+/*************** TITLE STYLE **************************************/
+h1{
+	font-family: 'Bebas Neue', cursive;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight:normal;
+	line-height: 1.2em;
+	margin-top:0px;
+	margin-bottom:10px;;
+}
+h2{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight:normal;
+	line-height: 1.2em;
+}
+h3{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight:normal;
+	line-height: 1.4em;
+
+}
+
+.justify{
+	text-align:justify;
+	}
+.center{
+	text-align:center;
+	}
+.left{
+	text-align:left;
+	}
+.right{
+	text-align:right;
+	}
+ol, ul{
+	padding-left: 25px;
+}
+
+.margin-top-20{
+	margin-top:-15px;
+}
+
+/*************** READ MORE BUTTON **************************************/
+.readmore{
+	text-decoration: none;
+	font-weight: bold;
+	display:inline-block;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	background-image: url(viewmore-white.png);
+	background-repeat: no-repeat;
+	background-position: top 16px right -25px;
+	cursor:pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	min-width:100px;
+	text-align:center;
+	margin-top: 10px;
+	padding:15px 35px;
+	opacity:1;
+	border-radius:5px;
+	color:#fff;	
+	background-color:#434343;
+}
+.readmore:hover{
+	padding-right: 40px !important;
+	background-position: top 19px right 25px;
+	background-color:#fe9923;
+}
+/*********************CONTACT US INFO ARRANGEMENT*******************************************/
+
+
+.contact span{
+	width:40px;
+	display:inline-block;
+	
+}

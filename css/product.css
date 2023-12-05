@@ -1,0 +1,27 @@
+boxi3{
+	display:inline-block;
+	width:auto;
+	vertical-align: top;
+	overflow:hidden;
+	max-width:270px;
+	margin:10px;
+}
+boxi5{
+	display:inline-block;
+	width:100%;
+	vertical-align: top;
+	overflow:hidden;
+	max-width:200px;
+	margin:10px;
+}
+@media only screen and (max-width: 520px) {
+boxi3,
+boxi5{
+	max-width:none;
+	width:40%;
+}
+}
+
+
+
+

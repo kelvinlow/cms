@@ -1,0 +1,35 @@
+#banner-normalpage{
+	display:block;
+	postition:relative;
+	width:100%;
+	height:50vh;
+	overflow:hidden;
+	background-size:cover !important;
+	background-attachment:scroll !important;
+	background-position:center center !important;
+	background-repeat:no-repeat !important;
+}
+
+#begin-arw{
+	display:block;
+	width:auto;
+	text-align: center;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:40px;
+	margin:auto;
+	z-index: 9;
+	
+	
+}
+
+@media only screen and (max-width: 420px) {
+	#banner-normalpage{
+		height:40vh;
+		background-attachment:scroll !important;
+		background-size:auto 100%  !important;
+		background-position:bottom center !important;
+		}
+	}
+ 

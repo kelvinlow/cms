@@ -1,0 +1,94 @@
+bluebar{
+	display:block;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	z-index:98;
+	color:#6a3a30;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,fe9923+70 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 25%, rgba(255,207,0,1) 75%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(255,207,0,1) 75%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 25%,rgba(255,207,0,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffcf00',GradientType=1 ); /* IE6-9 */
+
+	}
+bluebar inside{ 
+	max-width: 1240px;	
+	margin:auto;
+	display:block;
+	text-align:right;
+	white-space:nowrap;
+	overflow-y:hidden;
+	overflow-x:auto; 
+	width: auto;	
+	padding:20px;
+	}
+bluebar inside::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+bluebar inside::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+bluebar inside::-webkit-scrollbar-thumb {
+  background: #9CC;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+bluebar inside::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+bluebar inside::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+bluebar inside::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+bluebar inside::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+bluebar inside::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+bluebar inside::-webkit-scrollbar-corner {
+  background: transparent; 
+}
+
+bluebar inside a{
+	color:#6a3a30;
+	font-weight: lighter;
+	display:inline-block;
+	font-weight: bold;
+	font-size: 26px;
+	}
+bluebar inside a:hover{
+	opacity:0.7;
+	}
+	
+.hidden{
+	position:fixed;
+	top:-100px;
+	left:0px;
+	right:0px;
+	}
+	
+@media only screen and (max-width: 740px) {
+	begone{display:none;}
+}
+
+
+@media only screen and (max-width: 380px) {
+bluebar inside a{
+	font-size: 20px;
+	}
+}

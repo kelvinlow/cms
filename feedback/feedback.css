@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+.feedbackform {
+	width:auto;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666;
+}
+.feedbackform hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-bottom-color: #CCC;
+}
+/****************************************************************/
+::-webkit-input-placeholder {font-family:Arial, Helvetica, sans-serif; color:#666; font-size: 12px;}
+:-moz-placeholder {font-family:Arial, Helvetica, sans-serif; color:#666; font-size: 12px;}
+::-moz-placeholder {font-family:Arial, Helvetica, sans-serif; color:#666; font-size: 12px;}
+:-ms-input-placeholder {font-family:Arial, Helvetica, sans-serif; color:#666; font-size: 12px;}
+
+/****************************************************************/
+.feedbackform input[type=text],
+.feedbackform input[type=number],
+.feedbackform input[type=tel],
+.feedbackform input[type=email],
+.feedbackform input[type=date],
+.feedbackform input[type=file],
+.feedbackform input[type=submit],
+.feedbackform textarea,
+.feedbackform select,
+#captcha,
+block
+{
+	border: 2px solid #EEE;
+	border-radius:5px;
+	padding: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	outline:none;
+	box-sizing : border-box;
+	width: 100%;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	}
+.feedbackform .margin_right{
+	margin-right:5px;
+	}
+.feedbackform .dua{width:50%;}
+	
+/****************************************************************/
+.feedbackform flex{
+	display: -webkit-flex; /* Safari */
+  display: flex;
+	}
+
+@media only screen and (max-width: 540px) {
+.feedbackform flex{
+  display: block;
+	}
+.feedbackform .margin_right{
+	margin-right:0px;
+	}	
+	
+}
+/****************************************************************/
+.feedbackform input[type=submit]{
+	color: #FFF;
+	background-color: #fe9900;
+	cursor:pointer;
+}
+.feedbackform input[type=submit]:hover{
+	background-color: #ed1c24;
+}
+
+/****************************************************************/
+.feedbackform #captcha{
+	font-family: 'Caveat', cursive;
+	background-image: url(feedback/captcha.gif);
+	background-size: cover;
+	font-size: 36px;	
+	color:#FFF;
+	text-align:center;
+	/* disable select */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

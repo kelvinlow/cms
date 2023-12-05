@@ -1,0 +1,87 @@
+
+/********************************************/
+sidebox{
+	display:block;
+	max-width:366px;
+	top:0;
+	bottom:0; 
+	right:-362px;
+	position:fixed;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: #FFF;
+	padding: 20px;
+	text-align:left;
+	z-index:1000;
+	}
+@media only screen and (max-width: 480px) {	
+sidebox{
+	max-width:330px;
+	right:-332px;
+	}
+}
+content_scroll{
+	display:block;
+	max-height:100%;
+	overflow:hidden;
+	overflow-x:hidden;
+	overflow-y: auto;
+	}	
+sidebox.boxOut{
+	right:0px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #004489;
+	}	
+sidebox icon{
+	position:absolute;
+	width:48px;
+	cursor:pointer;
+	left:-50px;
+	bottom:134px;	
+	z-index:99;
+	}
+sidebox icon:hover{
+	left:-48px;
+	}	
+
+/*******************WhatsApp************************/
+ws{
+	display:inline-block;
+	position:fixed;
+	right:0px;
+	bottom:234px;	
+	z-index:99;
+	}
+ws:hover{
+	right:-4px;
+	}	
+
+/*******************Email************************/
+em{
+	display:inline-block;
+	position:fixed;
+	right:0px;
+	bottom:184px;	
+	z-index:99;
+	}
+em:hover{
+	right:-4px;
+	}	
+
+
+@media only screen and (max-width: 480px) {	
+ws{
+	bottom:244px;	
+	}
+em{
+	bottom:184px;	
+	}	
+sidebox icon{
+	bottom:124px;	
+	}	
+	
+}

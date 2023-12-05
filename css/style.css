@@ -1,0 +1,89 @@
+
+
+@import url("section.css");
+@import url("bluebar.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("font.css");
+@import url("section.css");
+@import url("indexbelow.css");
+@import url("product.css");
+@import url("sidebox.css");
+@import url("footer.css");
+*{
+	box-sizing:border-box;
+		border-spacing:0px;
+	}
+body {
+	width: auto;
+	margin: auto;
+	line-height:auto;
+	background-image: url(bg.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+img {
+	-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+.border_right{		
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	padding-right:40px;
+}
+garisan{
+	display:none;
+	}
+
+.imglink:hover{
+	opacity:0.8;
+}
+.wujuddimobil{
+	display:none;
+	}
+
+/*tumpang coding for home*/
+.home-1,
+.img-rounded{
+	width:100%;
+	border-radius:10px;
+}
+	
+@media only screen and (max-width: 740px) {
+.border_right{		
+	border-right-width: 0px;
+	padding-right:0px;
+}	
+garisan{
+	display:block;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;	
+	margin:20px auto;
+	}
+.markets{
+	width:auto !important;}
+.hilangdimobil{
+	display:none;
+	}
+.wujuddimobil{
+	display:block;
+	}
+}
+
+	
+.arrow-scroller img{
+	width:60px !important;
+	max-width:60px !important;
+	width:60px !important;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg); /* Standard syntax */
+	}
+
+
+

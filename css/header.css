@@ -1,0 +1,60 @@
+header{
+	position: fixed;
+	left: 0px;
+	top: 90px;
+	right: 0px;
+	z-index:99;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease; 
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease; 
+	background-color:rgba(255,255,255,0);
+}
+
+   
+
+.headergotop{
+	top:0px;
+	background-color:rgba(255,255,255,1);
+	}
+header .inside{ 
+	width: 100%;
+	display:table;
+	max-width:1240px;
+	margin: auto;
+
+}
+header .inside .left{
+	display:table-cell;
+	margin: auto;
+	width:20%;
+}
+header .inside .right{
+	display:table-cell;
+	vertical-align:top;
+	text-align:right;
+	color: #000;
+
+	}
+
+#logo_big{
+	max-width:200px;
+	width:100%;
+	margin:-70px 20px 20px 20px;
+}
+#logo_small{
+	max-width:120px;
+	width:100%;
+	margin:20px 20px; 
+	display:none;
+
+	background: rgba(0,0,0,0);
+	}
+
+@media only screen and (max-width: 640px) {
+#logo_big{
+	max-width:140px;
+}
+}
+

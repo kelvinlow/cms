@@ -1,0 +1,62 @@
+prefooter{
+	display:block;
+	background: #fbcd0c;
+		}
+conbox{
+	display:inline-block;
+	width:220px;
+	vertical-align:top;
+	}
+conbox img{
+	display:inline-block;
+	margin:auto;
+	width:100%;
+	max-width:100px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	}
+
+conbox a{
+	color:  #434343;
+	font-size: 16px;
+	text-decoration: none;
+	}	
+
+conbox:hover img {
+  -ms-transform: scale(1.2,1.2); /* IE 9 */
+  transform: scale(1.2,1.2); /* Standard syntax */
+}
+	
+
+	
+footer{
+	width: auto;
+	background-color: #fff;
+	text-align:center;
+	display:block;
+	font-size: 12px;
+	padding:40px;
+	font-weight: lighter;
+	}
+footer img:hover{
+	opacity:0.6;
+	}
+footer a{
+	color: #059494;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+@media only screen and (max-width: 520px) {
+	prefooter{
+		text-align: center;
+	}
+	
+pushdown{
+	display:block;
+	margin:5px;
+	}
+}
+
